@@ -49,6 +49,7 @@ plotting <- aggr(Retest_data, col=c('blue','red'), numbers=TRUE, sortVars=TRUE, 
 #Q6.Removing the na values 
 Retest_data <-na.omit(Retest_data) - nrow((Retest_data))
 Retest_data
+
 #Deleting the data from rows
 delete_data <- nrow(Retest_data)
 delete_data
